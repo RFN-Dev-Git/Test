@@ -1,0 +1,42 @@
+# === Secrets & Credentials (Code Guardian protocol) ===
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+*token*
+*_token
+*.token
+.netrc
+.git-credentials
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# === Node ===
+node_modules/
+npm-debug.log*
+yarn-error.log
+
+# === Build / cache ===
+build/
+dist/
+out/
+coverage/
+.cache/
+
+# === OS / Editor ===
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
